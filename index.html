@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>bruh niggas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <canvas id="world"></canvas>
+      <br>
+      <button onclick="population.push(new Cell())">add</button>
+      <br>
+      <lable for="simSpeed">sim speed: </lable>
+      <input id="simSpeed" type="range" min="1" max="20" value="1" oninput="parameters()">
+      <br>
+      <label for="lightLevel">light level: </label>
+      <input id="lightLevel" type="range" min="0" max="1" step="0.1" value="1" oninput="parameters()">
+    </div>
+    <div>
+      <table>
+        <tr>
+          <th>Population</th>
+          <th>Avg antenna size</th>
+          <th>Avg eye size</th>
+          <th>Avg pigmentation</th>
+        </tr>
+        <tr>
+          <td id="population">0</td>
+          <td id="avgAntenna">0</td>
+          <td id="avgEye">0</td>
+          <td id="avgPigment">0</td>
+        </tr>
+      </table>
+    </div>
+    
+    <script src="classes.js"></script>
+    <script src="script.js"></script>
+    <script src="render.js"></script>
+  </body>
+</html>
