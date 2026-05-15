@@ -4,4 +4,18 @@ canvas {
 
 th, td {
   border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  width: 500px;
+  margin-bottom: 10px
+}
+
+div, button {
+  margin-bottom: 10px;
+}
+
+label, button {
+  font-size: 1.2em;
 }
