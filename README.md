@@ -10,3 +10,6 @@ Eyes always have a baseline cost. Vision range directly correlates with eye size
 
 **Antennae**  
 Antennae have a small baseline cost. Larger antennae increase smell range, and the smell range is independant of light, unlike eyes. Movement using only smell-based sensing is slower than sight-based sensing in full light.
+
+
+Agents are diploid, and their genomes recombine upon reproduction with other agents. Random mutation introduces alleles that alter these traits. Upregulations are dominant, while downregulations are recessive in their inheritance.
